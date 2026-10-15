@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "PaymentTransaction",
+  "namespace": "com.dio.pipeline",
+  "fields": [
+    { "name": "transactionId", "type": "string" },
+    { "name": "cardId", "type": "string" },
+    { "name": "amount", "type": "double" },
+    { "name": "timestamp", "type": "long" }
+  ]
+}
